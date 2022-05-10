@@ -5,25 +5,25 @@ header {
     align-items: center;
 }
 
-.dsmovie-nav-content {
+.dspixel-nav-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
 }
 
-.dsmovie-nav-content h1 {
+.dspixel-nav-content h1 {
     margin: 0;
     font-weight: 700px;
     font-size: 24px;
 }
 
-.dsmovie-contact-container {
+.dspixel-contact-container {
     display: flex;
     align-items: center;
 }
 
-.dsmovie-contact-link {
+.dspixel-contact-link {
     margin: 0 0 0 10px;
     font-size: 12px;
 }
