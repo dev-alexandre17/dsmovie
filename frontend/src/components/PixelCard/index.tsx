@@ -1,4 +1,5 @@
 import PixelScore from "components/PixelScore";
+import { Link } from "react-router-dom";
 
 function PixelCard() {
 
@@ -16,7 +17,9 @@ function PixelCard() {
             <div className="dspixel-card-bottom-container">
                 <h3>{pixel.title}</h3>
                 <PixelScore />
-                <div className="btn btn-primary dspixel-btn">Avaliar</div>
+                <Link to={`/form/${pixel.id}`}>
+                    <div className="btn btn-primary dspixel-btn">Avaliar</div>
+                </Link>
             </div>
         </div>
     );
