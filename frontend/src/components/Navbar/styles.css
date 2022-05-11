@@ -10,6 +10,12 @@ header {
     justify-content: space-between;
     align-items: center;
     color: #fff;
+    background: url('/src/assets/img/rain.gif');
+    height: 60px;
+    margin-left: -126px;
+    margin-right: -130px;
+    padding-right: 120px;
+    padding-left: 180px;
 }
 
 .dspixel-nav-content h1 {
