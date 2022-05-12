@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior</groupId>
-	<artifactId>dsmovie</artifactId>
+	<artifactId>dspixel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>dsmovie</name>
+	<name>dspixel</name>
 	<description>Projeto criado na Semana Spring React</description>
 	<properties>
 		<java.version>17</java.version>
