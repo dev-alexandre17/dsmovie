@@ -5,7 +5,8 @@
 }
 
 .dspixel-score-value {
-    margin: 0;
+    margin-top: -20px;
+    margin: 5;
     color: #FFBB3A;
     font-size: 16px;
     font-weight: 700;

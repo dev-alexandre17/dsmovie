@@ -5,8 +5,8 @@ function PixelCard() {
 
     const pixel = {
         id: 1,
-        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-        title: "The Witcher",
+        image: "https://i.pinimg.com/originals/dc/a0/eb/dca0ebe28c0678b483240443911f75f0.gif",
+        title: "The Travel",
         count: 2,
         score: 4.5
     };

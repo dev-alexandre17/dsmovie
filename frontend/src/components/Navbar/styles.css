@@ -9,13 +9,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .dspixel-nav-content h1 {
     margin: 0;
     font-weight: 700px;
     font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .dspixel-contact-container {
@@ -26,4 +28,6 @@ header {
 .dspixel-contact-link {
     margin: 0 0 0 10px;
     font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
 }
