@@ -13,7 +13,7 @@ function PixelCard( { pixel } : Props) {
             <img className="dspixel-movie-card-image" src={pixel.image} alt={pixel.title} />
             <div className="dspixel-card-bottom-container">
                 <h3>{pixel.title}</h3>
-                <PixelScore />
+                <PixelScore count={pixel.count} score={pixel.score} />
                 <Link to={`/form/${pixel.id}`}>
                     <div className="btn btn-primary dspixel-btn">Avaliar</div>
                 </Link>
