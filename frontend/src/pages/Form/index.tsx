@@ -6,7 +6,7 @@ function Form() {
     const params = useParams();
 
     return (
-        <FormCard pixelId={`${params.pixelId}`} />
+        <FormCard pixelartId={`${params.pixelId}`} />
     );
 }
 
