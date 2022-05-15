@@ -1,15 +1,12 @@
 import PixelScore from "components/PixelScore";
 import { Link } from "react-router-dom";
+import { Pixel } from "types/pixel";
 
-function PixelCard() {
+type Props = {
+    pixel: Pixel;
+}
 
-    const pixel = {
-        id: 1,
-        image: "https://i.pinimg.com/originals/dc/a0/eb/dca0ebe28c0678b483240443911f75f0.gif",
-        title: "The Travel",
-        count: 2,
-        score: 4.5
-    };
+function PixelCard( { pixel } : Props) {
 
     return (
         <div>
