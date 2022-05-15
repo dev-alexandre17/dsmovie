@@ -1,18 +1,26 @@
 import axios from "axios";
 import Pagination from "components/Pagination";
 import PixelCard from "components/PixelCard";
+import { useEffect, useState } from "react";
+import { PixelPage } from "types/pixel";
 import { BASE_URL } from "utils/requests";
 
 function Listing() {
 
-    // FORMA ERRADA
-    axios.get(`${BASE_URL}/pixelarts?size=12&page=0`)
-        .then(response => {
-            console.log(response.data)
-        });
+    const [pageNumber, setPageNumber] = useState(0);
 
+    useEffect(() => {
+        axios.get(`${BASE_URL}/pixelarts?size=12&page=0`)
+        .then(response => {
+            const data = response.data as PixelPage;
+            console.log(data);
+            setPageNumber(data.number);
+        });
+    }, []);
+    
     return (
         <>
+        <p>{pageNumber}</p>
             <Pagination />
 
             <div className="container">
