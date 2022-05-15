@@ -1,7 +1,16 @@
+import axios from "axios";
 import Pagination from "components/Pagination";
 import PixelCard from "components/PixelCard";
+import { BASE_URL } from "utils/requests";
 
 function Listing() {
+
+    // FORMA ERRADA
+    axios.get(`${BASE_URL}/pixelarts?size=12&page=0`)
+        .then(response => {
+            console.log(response.data)
+        });
+
     return (
         <>
             <Pagination />
